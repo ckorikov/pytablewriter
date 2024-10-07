@@ -49,6 +49,7 @@ excel_requires = ["xlwt", "XlsxWriter>=0.9.6,<4"]
 es8_requires = ["elasticsearch>=8.0.1,<9"]
 from_requires = ["pytablereader>=0.31.3,<2"]
 html_requires = ["dominate>=2.1.5,<3"]
+rich_requires = ["rich"]
 logging_requires = ["loguru>=0.4.1,<1"]
 sqlite_requires = ["SimpleSQLite>=1.3.2,<2"]
 theme_requires = [
@@ -71,6 +72,7 @@ all_requires = (
     + yaml_requires
     + optional_requires
     + pandas_requires
+    + rich_requires
 )
 tests_requires = list(set(tests_requires + all_requires))
 
@@ -99,6 +101,7 @@ setuptools.setup(
         "SQLite",
         "TSV",
         "TOML",
+        "Rich",
     ],
     license=pkg_info["__license__"],
     long_description=long_description,
@@ -130,6 +133,7 @@ setuptools.setup(
         "theme": theme_requires,
         "toml": toml_requires,
         "yaml": yaml_requires,
+        "rich": rich_requires,
     },
     classifiers=[
         "Development Status :: 5 - Production/Stable",

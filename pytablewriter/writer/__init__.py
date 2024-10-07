@@ -29,6 +29,7 @@ from .text import (
     TsvTableWriter,
     UnicodeTableWriter,
     YamlTableWriter,
+    RichTableWriter,
 )
 from .text.sourcecode import (
     JavaScriptTableWriter,
@@ -71,4 +72,5 @@ __all__ = (
     "TsvTableWriter",
     "UnicodeTableWriter",
     "YamlTableWriter",
+    "RichTableWriter",
 )

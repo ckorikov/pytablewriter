@@ -222,6 +222,7 @@ class TableWriterFactory:
                 tsv
                 unicode
                 yaml
+                rich
 
         """
 

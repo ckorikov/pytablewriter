@@ -3,6 +3,7 @@ from ._borderless import BorderlessTableWriter
 from ._css import CssTableWriter
 from ._csv import CsvTableWriter
 from ._html import HtmlTableWriter
+from ._rich import RichTableWriter
 from ._json import JsonTableWriter
 from ._jsonlines import JsonLinesTableWriter
 from ._latex import LatexMatrixWriter, LatexTableWriter
@@ -24,6 +25,7 @@ __all__ = (
     "CssTableWriter",
     "CsvTableWriter",
     "HtmlTableWriter",
+    "RichTableWriter",
     "JsonTableWriter",
     "JsonLinesTableWriter",
     "LatexMatrixWriter",

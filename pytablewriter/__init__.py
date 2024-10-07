@@ -64,6 +64,7 @@ from .writer import (
     TsvTableWriter,
     UnicodeTableWriter,
     YamlTableWriter,
+    RichTableWriter,
 )
 
 
@@ -130,4 +131,5 @@ __all__ = (
     "TsvTableWriter",
     "UnicodeTableWriter",
     "YamlTableWriter",
+    "RichTableWriter",
 )

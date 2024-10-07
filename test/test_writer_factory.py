@@ -57,6 +57,7 @@ class Test_WriterFactory_get_format_names:
             "tsv",
             "unicode",
             "yaml",
+            "rich",
         ]
 
 
@@ -87,6 +88,7 @@ class Test_WriterFactory_get_extensions:
             "xls",
             "xlsx",
             "yml",
+            "rich",
         ]
 
 

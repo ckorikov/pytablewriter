@@ -38,6 +38,7 @@ from .writer import (
     TsvTableWriter,
     UnicodeTableWriter,
     YamlTableWriter,
+    RichTableWriter,
 )
 
 
@@ -110,6 +111,12 @@ class TableFormat(enum.Enum):
         HtmlTableWriter,
         FormatAttr.FILE | FormatAttr.TEXT,
         ["html", "htm"],
+    )
+    RICH = (
+        [RichTableWriter.FORMAT_NAME, "rich"],
+        RichTableWriter,
+        FormatAttr.TEXT,
+        [],
     )
     JAVASCRIPT = (
         [JavaScriptTableWriter.FORMAT_NAME, "js"],
